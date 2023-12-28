@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html,
+body {
+	height: 100%;
+}
+.python_icon{
+    height: 70px;
+    width: 70px;
+    vertical-align: middle;
+   
+}
+.python_icon1
+{
+   
+    text-align: center;
+
+}
+.menu {
+	width: 100%;
+	display: table;
+}
+
+.menu ul {
+	display: table-row;
+}
+.menu li {
+	display: table-cell;
+	background: #796969;
+    vertical-align: middle; 
+}
+.menu ul li:hover, .menu a:hover {
+	background: #bdbab3;
+    color: rgb(250, 250, 125);
+}
+.menu li a {
+	display: block;
+	padding: 8px 15px;
+	color: #18151d;
+	text-align: center;
+    text-decoration: none;
+}
+.icon
+{
+    background: none!important;
+    color: none!important;
+}
+
+footer {
+	
+	width: 100%;
+	height: 10px;
+    
+}
+
+footer div
+{
+    background: #b0d4f3;
+    height: 50px;
+    text-align: center;
+    color: #b8a2a2;
+    font-size: x-large;
+    width: 100%;
+}
+.table 
+{
+    border: 1px rgb(116, 55, 55);
+    padding: 10px;
+    margin: auto;
+
+}
+.table tr td
+{
+    padding: 10px;
+
+}
+.content
+{
+    min-height: 100%;
+    padding: 50px;
+}
+
+.content p
+{
+    padding: 10px;
+}
+div.content ul li
+{
+   
+    margin-left: 50px;
+}
+.sh {
+    word-wrap: break-word;
+    padding: 8px;
+    background-color: rgb(241, 225, 225);
+    color: #c9cc34;
+    font-family: var(--main-font-family);
+    font-size: var(--main-font-size);
+}
+pre {
+    font-family: monospace;
+    max-width: 99%;
+    line-height: 160%;
+    white-space: pre-wrap;
+    border: 1px solid #e41212;
+    clear: both;
+}
+
